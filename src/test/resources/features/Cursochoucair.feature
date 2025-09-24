@@ -11,7 +11,7 @@ Feature: Guia Tecnica Analista Financial
     Given que el usuario se autentica con usuario "<usuario>" y contraseña "<contraseña>"
     When el usuario en el menú da clic en la opción "Mis cursos"
     And accede al curso "Guias Técnicas - Analista Financial"
-    Then el aplicativo muestra el curso "Guias Técnicas - Analista Financial"
+    Then el aplicativo muestra el curso "Guías Técnicas - Analista Financial"
 
     Examples:
       | usuario    | contraseña    |

@@ -1,4 +1,4 @@
-package model;
+package autenticarse.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class AutenticarseModelo {
+public class CredencialesModelo {
 
     private String nombreDeUsuario;
     private String contraseniaDeUsuario;
