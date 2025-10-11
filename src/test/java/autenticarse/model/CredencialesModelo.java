@@ -12,5 +12,5 @@ public class CredencialesModelo {
 
     private String nombreDeUsuario;
     private String contraseniaDeUsuario;
-
+   
 }

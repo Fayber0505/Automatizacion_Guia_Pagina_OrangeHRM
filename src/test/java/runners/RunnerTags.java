@@ -9,7 +9,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("features/academy.feature")
+@SelectClasspathResource("features/Cursochoucair.feature")
 @ConfigurationParameter(key = "cucumber.glue",
 value = "stepdefinitions")
 
