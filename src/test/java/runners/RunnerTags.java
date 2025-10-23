@@ -9,13 +9,10 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("features/Cursochoucair.feature")
-@ConfigurationParameter(key = "cucumber.glue",
-value = "stepdefinitions")
+@SelectClasspathResource("features/AgregarNuevoEmpleadoModuloPIM.feature")
+@ConfigurationParameter(key = "cucumber.glue", value = "stepdefinitions")
 
-@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME,
-        value = "io.cucumber.core.plugin.SerenityReporterParallel,pretty,timeline:build/test- results/timeline"
-)
+@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "io.cucumber.core.plugin.SerenityReporterParallel,pretty,timeline:build/test- results/timeline")
 public class RunnerTags {
 
 }

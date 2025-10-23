@@ -1,4 +1,4 @@
-package autenticarse.model;
+package autenticarse.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

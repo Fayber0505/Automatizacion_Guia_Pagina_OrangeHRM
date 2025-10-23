@@ -1,4 +1,4 @@
-package autenticarse.tareas;
+package autenticarse.tasks;
 
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -6,23 +6,24 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import autenticarse.interfaces_usuario.AutenticarseUI;
-import autenticarse.model.CredencialesModelo;
+
+import autenticarse.models.CredencialesModelo;
+import autenticarse.userinterfaces.AutenticarseUI;
 import net.serenitybdd.screenplay.Actor;
 
-public class AutenticarseTarea implements Task {
+public class AutenticarseTask implements Task {
 
     private CredencialesModelo autenticarseModelo;
 
     private static final int TIEMPO_ESPERA = 60;
 
-    public AutenticarseTarea(CredencialesModelo autenticarseModelo) {
+    public AutenticarseTask(CredencialesModelo autenticarseModelo) {
         this.autenticarseModelo = autenticarseModelo;
 
     }
 
-    public static AutenticarseTarea con(CredencialesModelo autenticarseModelo) {
-        return instrumented(AutenticarseTarea.class, autenticarseModelo);
+    public static AutenticarseTask con(CredencialesModelo autenticarseModelo) {
+        return instrumented(AutenticarseTask.class, autenticarseModelo);
 
     }
 
