@@ -3,10 +3,10 @@ name: CI/CD - OrangeHRM Automation
 on:
   push:
     branches:
-      - main
+      - mi-rama-local
   pull_request:
     branches:
-      - main
+      -  mi-rama-local
 
 jobs:
   build-and-test:
