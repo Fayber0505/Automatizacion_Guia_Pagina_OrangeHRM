@@ -9,7 +9,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("features/AgregarNuevoEmpleadoModuloPIM.feature")
+@SelectClasspathResource("features/agregar_nuevo_empleado.feature")
 @ConfigurationParameter(key = "cucumber.glue", value = "pasos_definidos")
 
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "io.cucumber.core.plugin.SerenityReporterParallel,pretty,timeline:build/test- results/timeline")
