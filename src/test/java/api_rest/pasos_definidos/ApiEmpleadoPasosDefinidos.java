@@ -14,7 +14,7 @@ import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 public class ApiEmpleadoPasosDefinidos {
   private Actor actor = Actor.named("Fayber");
   private final String BASE_URL = "http://localhost:80";
-  private final String COOKIE = "c14bvju1cod682pdthurjbghpt";
+  private final String COOKIE = "p4rudg362gcn30vgaur8n2bnc8";
 
   @Given("que el usuario tiene acceso a la API de OrangeHRM")
   public void queElUsuarioTieneAccesoALaAPI() {
