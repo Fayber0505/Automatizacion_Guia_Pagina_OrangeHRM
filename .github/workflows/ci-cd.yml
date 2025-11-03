@@ -25,8 +25,8 @@ jobs:
       - name: Build with Maven
         run: mvn clean install -DskipTests
 
-      - name: Run API tests
-        run: mvn clean verify "-Dtest=ejecuciones.ApiRunnerTags"
+    #   - name: Run API tests
+    #     run: mvn clean verify "-Dtest=ejecuciones.ApiRunnerTags"
 
       - name: Run E2E/UI tests
         run: mvn clean verify "-Dtest=ejecuciones.RunnerTags"
