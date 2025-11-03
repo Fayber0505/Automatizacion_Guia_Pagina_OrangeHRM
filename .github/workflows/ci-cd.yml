@@ -29,7 +29,7 @@ jobs:
     #     run: mvn clean verify "-Dtest=ejecuciones.ApiRunnerTags"
 
       - name: Run E2E/UI tests
-        run: mvn clean verify "-Dtest=ejecuciones.RunnerTags"
+        run: mvn clean verify
 
       - name: Upload Test Reports
         uses: actions/upload-artifact@v4
