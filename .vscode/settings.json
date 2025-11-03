@@ -1,4 +1,20 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "[java]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[gherkin]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[xml]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "editor.formatOnSave": true
 }
